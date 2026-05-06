@@ -19,16 +19,8 @@ export function Footer() {
           gap: "16px",
         }}
       >
-        <span
-          style={{
-            fontSize: "13px",
-            fontWeight: 700,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            color: "#fff",
-          }}
-        >
-          FORM
+        <span style={{ display: 'flex', alignItems: 'center' }}>
+          <img src="/favicon.png" alt="Logo" style={{ height: "30px", width: "auto" }} />
         </span>
 
         <span style={{ fontSize: "12px", fontWeight: 300, color: "#444", letterSpacing: "0.04em" }}>

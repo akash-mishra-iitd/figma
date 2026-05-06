@@ -37,18 +37,8 @@ export function Nav() {
         }}
       >
         {/* Logo */}
-        <a
-          href="#"
-          style={{
-            fontSize: "15px",
-            fontWeight: 700,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            color: "#000",
-            textDecoration: "none",
-          }}
-        >
-          FORM
+        <a href="#" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src="/favicon.png" alt="Logo" style={{ height: "40px", width: "auto" }} />
         </a>
 
         {/* Desktop menu */}

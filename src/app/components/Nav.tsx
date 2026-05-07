@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.png";
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +39,7 @@ export function Nav() {
       >
         {/* Logo */}
         <a href="#" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/favicon.png" alt="Logo" style={{ height: "40px", width: "auto" }} />
+          <img src={logo} alt="Logo" style={{ height: "40px", width: "auto" }} />
         </a>
 
         {/* Desktop menu */}

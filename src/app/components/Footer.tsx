@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 export function Footer() {
   return (
     <footer
@@ -20,7 +22,7 @@ export function Footer() {
         }}
       >
         <span style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/favicon.png" alt="Logo" style={{ height: "30px", width: "auto" }} />
+          <img src={logo} alt="Logo" style={{ height: "30px", width: "auto" }} />
         </span>
 
         <span style={{ fontSize: "12px", fontWeight: 300, color: "#444", letterSpacing: "0.04em" }}>
